@@ -5,6 +5,10 @@
   "main": "src/index.js",
   "author": "Larrire",
   "license": "MIT",
+  "scripts": {
+    "postinstall": "ls",
+    "dev": "npx nodemon src/index"
+  },
   "dependencies": {
     "express": "^4.18.1"
   },
